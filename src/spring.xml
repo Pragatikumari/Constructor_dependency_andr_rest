@@ -3,8 +3,8 @@
 
 <beans>
 <bean id ="triangle"  class= "constructor_injection.Triangle">
-<constructor-arg value="Equilateral" ></constructor-arg>
-<constructor-arg value ="20"></constructor-arg>
+<constructor-arg type= "java.lang.String" value="Equilateral" ></constructor-arg>
+<constructor-arg type="int" value ="20"></constructor-arg>
 
 </bean>
 
