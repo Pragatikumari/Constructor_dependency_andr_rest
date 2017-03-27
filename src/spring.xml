@@ -4,6 +4,7 @@
 <beans>
 <bean id ="triangle"  class= "constructor_injection.Triangle">
 <constructor-arg value="Equilateral" ></constructor-arg>
+<constructor-arg value ="20"></constructor-arg>
 
 </bean>
 
